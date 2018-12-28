@@ -1,0 +1,4 @@
+# --- Nick's Custom Services ---
+# >> nicktalk
+DOMAIN-SUFFIX,nicktalk.com,force-remote-dns
+# --- End of Enhanced Anit-GFW Section ---
