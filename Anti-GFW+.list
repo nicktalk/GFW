@@ -105,4 +105,5 @@ DOMAIN-SUFFIX,xvideos.com,force-remote-dns
 DOMAIN-SUFFIX,yahoo.com,force-remote-dns
 DOMAIN-SUFFIX,pinimg.com,force-remote-dns
 DOMAIN-KEYWORD,pinterest,force-remote-dns
+DOMAIN-SUFFIX,hostracks.com,force-remote-dns
 # --- End of Enhanced Anit-GFW Section ---
