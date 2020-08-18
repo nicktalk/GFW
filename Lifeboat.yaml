@@ -1212,8 +1212,8 @@ rules:
   - 'DOMAIN-SUFFIX,smzdm.com,Domestic'
 
 # 网易云音乐
-  - 'DOMAIN-SUFFIX,music.163.com,Netease Music'
-  - 'DOMAIN-SUFFIX,music.126.net,Netease Music'
+  - 'DOMAIN-SUFFIX,music.163.com,Domestic'
+  - 'DOMAIN-SUFFIX,music.126.net,Domestic'
 
 # 网易
   - 'DOMAIN-SUFFIX,126.net,Domestic'
