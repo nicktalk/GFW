@@ -64,10 +64,6 @@ proxy-groups:
     name: 'AD Block'
     type: select
     proxies: [REJECT, DIRECT, Proxy]
-  -
-    name: 'Netease Music'
-    type: select
-    proxies: [Domestic, 'Netease Proxy China 1', 'Netease Proxy China 1 Method 2', 'Netease Proxy China 1 Method 3', 'Netease Proxy China 2', 'Netease Proxy Overseas 1', 'Netease Proxy Overseas 1 Method 2', 'Netease Proxy Overseas 1 Method 3']
 
 rules:
 # Apple Services
