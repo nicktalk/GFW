@@ -34,14 +34,6 @@ proxies:
     password: YuanYang8964
     tls: true
     udp: true
-  -
-    name: 'RUS'
-    type: ss
-    server: 103.102.4.125
-    port: 13619
-    cipher: chacha20-ietf-poly1305
-    password: GFWisGreat8964
-    udp: true
 
   -
     name: 'US'
@@ -49,7 +41,7 @@ proxies:
     server: c26s3.jamjams.net
     port: 6750
     uuid: d84ad618-3918-496d-89e6-0e8fb4f49e0d
-    alterid: 0
+    alterId: 0
     cipher: auto
     udp: true
 
@@ -57,11 +49,11 @@ proxy-groups:
   -
     name: Proxy
     type: select
-    proxies: ['HK', 'RUS']
+    proxies: ['HK', 'US']
   -
     name: 'Stream Services'
     type: select
-    proxies: [Proxy, 'HK', 'RUS']
+    proxies: [Proxy, 'HK', 'US']
   -
     name: Domestic
     type: select
