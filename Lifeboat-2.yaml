@@ -34,11 +34,61 @@ proxies:
     password: YuanYang8964
     tls: true
     udp: true
+    
+  -
+    name: 'HK-new'
+    type: ss
+    server: 154.210.130.142
+    port: 9694
+    cipher: aes-256-cfb
+    password: GFWisGreat8964
+    tls: true
+    udp: true
 
   -
-    name: 'US'
+    name: 'US-1'
+    type: ss
+    server: c26s1.jamjams.net
+    port: 6750
+    cipher: aes-256-gcm
+    password: vUQZVmzrnA
+    tls: true
+    udp: true
+    
+  -
+    name: 'US-2'
+    type: ss
+    server: c26s2.jamjams.net
+    port: 6750
+    cipher: aes-256-gcm
+    password: vUQZVmzrnA
+    tls: true
+    udp: true
+    
+  -
+    name: 'US-3'
     type: vmess
     server: c26s3.jamjams.net
+    port: 6750
+    uuid: d84ad618-3918-496d-89e6-0e8fb4f49e0d
+    alterId: 0
+    cipher: auto
+    udp: true
+    
+  -
+    name: 'US-4'
+    type: vmess
+    server: c26s4.jamjams.net
+    port: 6750
+    uuid: d84ad618-3918-496d-89e6-0e8fb4f49e0d
+    alterId: 0
+    cipher: auto
+    udp: true
+    
+  -
+    name: 'US-5'
+    type: vmess
+    server: c26s5.jamjams.net
     port: 6750
     uuid: d84ad618-3918-496d-89e6-0e8fb4f49e0d
     alterId: 0
@@ -53,7 +103,7 @@ proxy-groups:
   -
     name: 'Stream Services'
     type: select
-    proxies: [Proxy, 'HK', 'US']
+    proxies: [Proxy, 'HK', 'HK-new', 'US-1', 'US-2', 'US-3', 'US-4', 'US-5']
   -
     name: Domestic
     type: select
