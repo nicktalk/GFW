@@ -44,20 +44,51 @@ proxies:
     password: GaryisGFW8964
     tls: true
     udp: true
+    
+  -
+    name: 'CNIX-HK 06'
+    type: ss
+    server: sg16.clashcloud.club
+    port: 32220
+    cipher: rc4-md5
+    password: Fgsb23
+    udp: true
+    
+  - 
+    name: 'CNIX-HK 07'
+    type: ss
+    server: sg17.clashcloud.club
+    port: 32220
+    cipher: rc4-md5
+    password: Fgsb23
+    udp: true
+    
+  - 
+    name: 'Blinkload 5'
+    type: ss
+    server: iepl.hk.a03j.linkit.dev
+    port: 19710
+    cipher: xchacha20-ietf-poly1305
+    password: 76h8PG
+    udp: true
+    plugin: obfs
+    plugin-opts: 
+      mode: http
+      host: ds.download.windowsupdate.com
 
 proxy-groups:
   -
     name: Proxy
     type: select
-    proxies: ['HK', 'US']
+    proxies: ['HK', 'US', 'CNIX-HK 06', 'CNIX-HK 07', 'Blinkload 5']
   -
     name: 'Stream Services'
     type: select
-    proxies: [Proxy, 'HK', 'US']
+    proxies: [Proxy, 'HK', 'US', 'CNIX-HK 06', 'CNIX-HK 07', 'Blinkload 5']
   -
     name: Domestic
     type: select
-    proxies: [DIRECT, Proxy,]
+    proxies: [DIRECT, Proxy]
   -
     name: 'Apple Services'
     type: select
