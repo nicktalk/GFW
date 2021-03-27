@@ -38,10 +38,11 @@ proxies:
   -
     name: 'US'
     type: ss
-    server: 161.129.39.230
-    port: 11222
+    server: 149.28.222.24
+    port: 11533
     cipher: rc4-md5
-    password: Gary8964
+    password: GFWisGreat8964
+    tls: true
     udp: true
     
 proxy-groups:
