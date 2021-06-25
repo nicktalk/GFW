@@ -28,20 +28,10 @@ proxies:
   -
     name: 'HK'
     type: ss
-    server: 156.234.142.191
-    port: 18277
-    cipher: rc4-md5
-    password: YuanYang8964
-    tls: true
-    udp: true
-    
-  -
-    name: 'US'
-    type: ss
-    server: 149.28.222.24
-    port: 11533
-    cipher: rc4-md5
-    password: GFWisGreat8964
+    server: 156.234.142.106
+    port: 20264
+    cipher: aes-256-cfb
+    password: GaryisOK8964
     tls: true
     udp: true
     
@@ -49,11 +39,11 @@ proxy-groups:
   -
     name: Proxy
     type: select
-    proxies: ['HK', 'US']
+    proxies: ['HK']
   -
     name: 'Stream Services'
     type: select
-    proxies: [Proxy, 'HK', 'US']
+    proxies: [Proxy, 'HK']
   -
     name: Domestic
     type: select
